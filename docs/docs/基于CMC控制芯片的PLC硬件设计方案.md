@@ -144,7 +144,7 @@ AC220V转DC24V推荐电路如下图所示，此电路为单端反激式开关电
 主控CPU部分电路包含了JTAG电路、复位电路及时钟电路，此部分电路为官方推荐参考电路，非必要不建议修改，参考电路见下图所示。
 
 <div align="center">
-      <img src="./基于CMC控制芯片的PLC硬件设计方案_images/image_006.png" width="600">
+  <img src="../基于CMC控制芯片的PLC硬件设计方案_images/image_006.png" alt="主控CPU">
 </div>
 
 ![Image: image_007](./基于CMC控制芯片的PLC硬件设计方案_images/image_007.png)
