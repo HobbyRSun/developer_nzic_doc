@@ -1,5 +1,5 @@
-site_name: NZIC官方开发教程
-site_description: NZIC官方开发教程
+site_name: NZIC开发者文档
+site_description: NZIC开发者文档
 site_author: NZIC
 
 theme:
@@ -32,4 +32,4 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - javascripts/mathjax-config.js  # 添加自定义配置
 
-copyright: Copyright &copy; 2026 NZIC
+copyright: Copyright &copy;  2020 宁波中控微电子

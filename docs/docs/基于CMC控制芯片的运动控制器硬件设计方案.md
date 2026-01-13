@@ -24,7 +24,7 @@
 
 ​非隔离方案中直流24V转5V采用DC/DC降压电路，推荐电路见下图所示，推荐电路设计输出为5V/2A。电源芯片型号为TPS54340，最大支持42V输入3.5A输出，支持100KHz到2.5MHz的固定或可调节开关频率。
 
-![Image: image_001](./基于CMC控制芯片的运动控制器硬件设计方案_images/image_001.png){:align="center"}
+![Image: image_001](./基于CMC控制芯片的运动控制器硬件设计方案_images/image_001.png)
 
 直流降压型24V转5V电路元器件清单：
 
@@ -98,12 +98,14 @@
 ### 主控CPU
 
 ​主控CPU部分电路包含了JTAG电路、复位电路及时钟电路，此部分电路为官方推荐参考电路，非必要不建议修改，参考电路见下图所示。
-<figure align="center">
 
-![Image: image_005](./基于CMC控制芯片的运动控制器硬件设计方案_images/image_005.png)
+<div align="center">
+  <img src="../基于CMC控制芯片的运动控制器硬件设计方案_images/image_005.png" alt="主控CPU">
+</div>
+
 ![Image: image_006](./基于CMC控制芯片的运动控制器硬件设计方案_images/image_006.png)
+
 ![Image: image_007](./基于CMC控制芯片的运动控制器硬件设计方案_images/image_007.png)
-</figure>
 
 主控CPU元器件清单：
 
