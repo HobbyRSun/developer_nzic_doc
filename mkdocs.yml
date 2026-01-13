@@ -13,7 +13,7 @@ nav:
   - 首页: index.md
   - 硬件推荐电路:
     - 基于CMC控制芯片的运动控制器硬件设计方案: docs/基于CMC控制芯片的运动控制器硬件设计方案.md
-    - 基于CMC控制芯片的PLC硬件设计方案: docs/基于CMC控制芯片的PLC硬件设计方案(改202110).md
+    - 基于CMC控制芯片的PLC硬件设计方案: docs/基于CMC控制芯片的PLC硬件设计方案.md
 
 markdown_extensions:
   - extra
