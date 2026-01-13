@@ -1,0 +1,35 @@
+site_name: NZIC官方开发教程
+site_description: NZIC官方开发教程
+site_author: NZIC
+
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - python
+    - yaml
+
+nav:
+  - 首页: index.md
+  - 硬件推荐电路:
+    - 基于CMC控制芯片的运动控制器硬件设计方案: docs/基于CMC控制芯片的运动控制器硬件设计方案.md
+    - 基于CMC控制芯片的PLC硬件设计方案: docs/基于CMC控制芯片的PLC硬件设计方案(改202110).md
+
+markdown_extensions:
+  - extra
+  - toc
+  - tables
+  - fenced_code
+  - codehilite
+  - admonition
+  - attr_list
+  - pymdownx.arithmatex:  # 添加这个扩展
+      generic: true
+      preview: false
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/mathjax-config.js  # 添加自定义配置
+
+copyright: Copyright &copy; 2026 NZIC
