@@ -12,8 +12,84 @@ theme:
 nav:
   - 首页: index.md
   - 硬件推荐电路:
-    - 基于CMC控制芯片的运动控制器硬件设计方案: docs/基于CMC控制芯片的运动控制器硬件设计方案.md
-    - 基于CMC控制芯片的PLC硬件设计方案: docs/基于CMC控制芯片的PLC硬件设计方案.md
+    - 基于CMC控制芯片的运动控制器硬件设计方案:
+      - 概述: docs/Recommended hardware circuit/Motion Controller Design Proposal/概述.md
+      - 系统组成: docs/Recommended hardware circuit/Motion Controller Design Proposal/系统组成.md
+      - 电路设计方案:
+        - 电源:
+          - 电源概述: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/电源/电源.md
+          - 非隔离直流输入: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/电源/非隔离直流输入.md
+          - 隔离直流输入: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/电源/隔离直流输入.md
+          - 内核电源: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/电源/内核电源.md
+        - 主控CPU: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/主控CPU.md
+        - 实时时钟: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/实时时钟.md
+        - 看门狗与掉电检测: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/看门狗与掉电检测.md
+        - 扩展存储:
+          - FLASH: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/扩展存储/FLASH.md
+          - FRAM: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/扩展存储/FRAM.md
+          - EEPROM: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/扩展存储/EEPROM.md
+          - TF卡: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/扩展存储/TF卡.md
+        - 通讯:
+          - RS232: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/通讯/RS232.md
+          - RS485: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/通讯/RS485.md
+          - 以太网: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/通讯/以太网.md
+          - CAN通讯: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/通讯/CAN通讯.md
+          - USB通讯: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/通讯/USB通讯.md
+        - 模拟量输入输出:
+          - 模拟量输入输出概述: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/模拟量输入输出/模拟量输入输出.md
+          - 模拟量输入: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/模拟量输入输出/模拟量输入.md
+          - 模拟量输出: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/模拟量输入输出/模拟量输出.md
+        - 开关量输入输出:
+          - 开关量输入: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/开关量输入输出/开关量输入.md
+          - 开关量输出: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/开关量输入输出/开关量输出.md
+        - 脉冲量输入输出:
+          - 差分脉冲输入: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/脉冲量输入输出/差分脉冲输入.md
+          - 单端脉冲输入: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/脉冲量输入输出/单端脉冲输入.md
+          - 差分脉冲输出: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/脉冲量输入输出/差分脉冲输出.md
+          - 单端脉冲输出: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/脉冲量输入输出/单端脉冲输出.md
+          - 手轮输入: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/脉冲量输入输出/手轮输入.md
+      - 物料清单:
+        - 列表: docs/Recommended hardware circuit/Motion Controller Design Proposal/Bill of Materials/列表.md
+        - 范例: docs/Recommended hardware circuit/Motion Controller Design Proposal/Bill of Materials/范例.md
+    - 基于CMC控制芯片的PLC硬件设计方案:
+      - 概述: docs/Recommended hardware circuit/PLC Hardware Design Proposal/概述.md
+      - 系统组成: docs/Recommended hardware circuit/PLC Hardware Design Proposal/系统组成.md
+      - 电路设计方案:
+        - 电源:
+          - 电源概述: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/电源/电源.md
+          - 交流输入: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/电源/交流输入.md
+          - 非隔离直流输入: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/电源/非隔离直流输入.md
+          - 隔离直流输入: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/电源/隔离直流输入.md
+          - 内核电源: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/电源/内核电源.md
+        - 主控CPU: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/主控CPU.md
+        - 实时时钟: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/实时时钟.md
+        - 看门狗与掉电检测: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/看门狗与掉电检测.md
+        - 扩展存储:
+          - FLASH: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/扩展存储/FLASH.md
+          - FRAM: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/扩展存储/FRAM.md
+          - EEPROM: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/扩展存储/EEPROM.md
+          - TF卡: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/扩展存储/TF卡.md
+        - 通讯:
+          - RS232: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/通讯/RS232.md
+          - RS485: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/通讯/RS485.md
+          - 以太网: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/通讯/以太网.md
+          - CAN通讯: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/通讯/CAN通讯.md
+          - USB通讯: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/通讯/USB通讯.md
+        - 模拟量输入输出:
+          - 模拟量输入输出概述: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/模拟量输入输出/模拟量输入输出.md
+          - 模拟量输入: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/模拟量输入输出/模拟量输入.md
+          - 模拟量输出: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/模拟量输入输出/模拟量输出.md
+        - 开关量输入输出:
+          - 开关量输入: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/开关量输入输出/开关量输入.md
+          - 开关量输出: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/开关量输入输出/开关量输出.md
+        - 脉冲量输入输出:
+          - 差分脉冲输入: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/脉冲量输入输出/差分脉冲输入.md
+          - 单端脉冲输入: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/脉冲量输入输出/单端脉冲输入.md
+          - 差分脉冲输出: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/脉冲量输入输出/差分脉冲输出.md
+          - 单端脉冲输出: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/脉冲量输入输出/单端脉冲输出.md
+      - 物料清单:
+        - 列表: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Bill of Materials/列表.md
+        - 范例: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Bill of Materials/范例.md
 
 markdown_extensions:
   - extra
