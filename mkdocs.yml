@@ -47,7 +47,7 @@ nav:
           - 单端脉冲输入: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/脉冲量输入输出/单端脉冲输入.md
           - 差分脉冲输出: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/脉冲量输入输出/差分脉冲输出.md
           - 单端脉冲输出: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/脉冲量输入输出/单端脉冲输出.md
-          - 手轮输入: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/脉冲量输入输出/手轮输入.md
+        - 手轮输入: docs/Recommended hardware circuit/Motion Controller Design Proposal/Circuit Design Proposal/脉冲量输入输出/手轮输入.md
       - 物料清单:
         - 列表: docs/Recommended hardware circuit/Motion Controller Design Proposal/Bill of Materials/列表.md
         - 范例: docs/Recommended hardware circuit/Motion Controller Design Proposal/Bill of Materials/范例.md
