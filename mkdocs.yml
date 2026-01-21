@@ -75,6 +75,9 @@ nav:
           - 以太网: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/通讯/以太网.md
           - CAN通讯: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/通讯/CAN通讯.md
           - USB通讯: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/通讯/USB通讯.md
+        - 热电偶热电阻:
+          - 热电偶: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/热电偶热电阻/热电偶.md
+          - 热电阻: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/热电偶热电阻/热电阻.md
         - 模拟量输入输出:
           - 模拟量输入输出概述: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/模拟量输入输出/模拟量输入输出.md
           - 模拟量输入: docs/Recommended hardware circuit/PLC Hardware Design Proposal/Circuit Design Proposal/模拟量输入输出/模拟量输入.md
