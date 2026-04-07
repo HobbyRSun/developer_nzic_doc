@@ -1,5 +1,5 @@
 ## FRAM
-FRAM通过SPI进行扩展，推荐电路见下图，电路中FRAM容量是8KByte，也可以根据自身需求更换其他容量的FRAM芯片。
+FRAM通过SPI进行扩展，示例电路见下图，电路中FRAM容量是8KByte，也可以根据自身需求更换其他容量的FRAM芯片。
 
 ![Image: image_014](../../images/image_014.png)
 

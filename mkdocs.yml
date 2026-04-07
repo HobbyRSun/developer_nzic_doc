@@ -11,7 +11,7 @@ theme:
 
 nav:
   - 首页: index.md
-  - 硬件推荐电路:
+  - 硬件示例电路:
     - 基于CMC控制芯片的运动控制器硬件设计方案:
       - 概述: docs/Recommended hardware circuit/Motion Controller Design Proposal/概述.md
       - 系统组成: docs/Recommended hardware circuit/Motion Controller Design Proposal/系统组成.md

@@ -1,6 +1,6 @@
 ## EEPROM
 
-​EEPROM通过I2C进行扩展，推荐电路见下图，电路中EEPROM容量是64KByte，也可以根据自身需求更换其他容量的EEPROM芯片。电路中多个设备用到I2C总线时需确认各设备地址是否有冲突。
+​EEPROM通过I2C进行扩展，示例电路见下图，电路中EEPROM容量是64KByte，也可以根据自身需求更换其他容量的EEPROM芯片。电路中多个设备用到I2C总线时需确认各设备地址是否有冲突。
 
 ![Image: image_014](../../images/image_014.png)
 

@@ -1,5 +1,5 @@
 ## FLASH
-​FLASH通过SPI进行扩展，推荐电路见下图，电路中FLASH容量是32MByte，也可以根据自身需求更换其他容量的FLASH芯片。
+​FLASH通过SPI进行扩展，示例电路见下图，电路中FLASH容量是32MByte，也可以根据自身需求更换其他容量的FLASH芯片。
 
 ![Image: image_012](../../images/image_012.png)
 
