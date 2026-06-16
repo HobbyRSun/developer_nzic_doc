@@ -1,5 +1,5 @@
 ## USB通讯
-USB通讯需要通过USB转UART方式接入CMC芯片，由于CMC芯片只有两个串口，在选用串口功能时需自己把握合理分配，USB通讯推荐电路如下图所示。
+USB通讯需要通过USB转UART方式接入CMC芯片，由于CMC芯片只有两个串口，在选用串口功能时需自己把握合理分配，USB通讯示例电路如下图所示。
 
 ![Image: image_022](../../images/image_022.png)
 

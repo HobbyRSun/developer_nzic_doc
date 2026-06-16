@@ -1,5 +1,5 @@
 ## CAN通讯 
-CAN通讯方案，推荐电路如下图所示。
+CAN通讯方案，示例电路如下图所示。
 
 ![Image: image_021](../../images/image_021.png)
 
